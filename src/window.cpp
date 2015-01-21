@@ -22,7 +22,7 @@ Window::Window(QWidget *parent):QWidget(parent)
 	{
 		QListWidgetItem *it=new QListWidgetItem(QString::number(i+1));
 		it->setTextAlignment(Qt::AlignRight);
-		this->llist->addItem();
+		this->llist->addItem(it);
 	}
 }
 
